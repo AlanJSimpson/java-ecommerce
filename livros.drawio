@@ -1,9 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2024-01-17T13:58:32.319Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" version="22.1.21" etag="2MEmhiiASJM3NhOYCoBp" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-17T14:18:07.221Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="N1u2H-n5lRdUqiifj3YW" version="22.1.21" type="github">
   <diagram name="Página-1" id="ZLr1WJbDhWqPUv8rurcU">
-    <mxGraphModel>
+    <mxGraphModel dx="1242" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HsTshN0lbbAE6g4cdlY5-4" value="Interface do usuário&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="210" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HsTshN0lbbAE6g4cdlY5-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="110" y="310" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="HsTshN0lbbAE6g4cdlY5-18" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="330" y="310" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="HsTshN0lbbAE6g4cdlY5-19" value="tax-calc-relatorio" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="220" y="210" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HsTshN0lbbAE6g4cdlY5-23" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="270" y="310" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="HsTshN0lbbAE6g4cdlY5-24" value="requestReport" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" target="HsTshN0lbbAE6g4cdlY5-23" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="330" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HsTshN0lbbAE6g4cdlY5-25" value="notifyReportReady" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=1.4;entryY=0.815;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="HsTshN0lbbAE6g4cdlY5-23" parent="1" target="HsTshN0lbbAE6g4cdlY5-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
